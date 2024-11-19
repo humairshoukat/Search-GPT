@@ -2,5 +2,5 @@ streamlit
 langchain
 langchain-community
 openai
-goog-search-results
+google-search-results
 python-dotenv
