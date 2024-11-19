@@ -8,23 +8,22 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configure Streamlit page
-st.set_page_config(page_title="Search GPT", page_icon="🔍")  # page_icon="🔍"
+st.set_page_config(page_title="Search GPT", page_icon="🔍")
 
 # UI for the app
 st.title("Search GPT")
 st.write(
     "Chat GPT with real-time internet search capabilities. "
 )
-# If we want to add a line break between two lines
+
+# If we want to add a line break between two lines then use st.markdown() instead st.write()
 # st.markdown(
 #     "Chat GPT with real-time internet search capabilities.  \n"
 #     "Built using Python, LangChain, Streamlit, OpenAI, and Google Search Results."
 # )
 
-# Add spacing
+# Add spacing with st.write() OR with custom HTML & CSS using st.markdown()
 # st.write("")  # Empty string for line space/gap
-
-# Add spacing with custom HTML & CSS
 st.markdown("<div style='margin-top: 25px;'></div>", unsafe_allow_html=True)
 
 
