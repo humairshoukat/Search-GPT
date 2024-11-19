@@ -19,7 +19,7 @@ $ python -m venv venv
 
 # Activate the virtual environment
 $ venv\Scripts\activate  # For Windows
-$ source bin/venv/activate  # For Mac & Linux
+$ source bin/activate  # For Mac & Linux
 
 # If you're unable to activate the venv OR if you get the error running/execution scripts are disabled,
 # If you're using windows, Fix it by following the below instruction:
