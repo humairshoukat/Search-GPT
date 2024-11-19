@@ -19,7 +19,7 @@ $ python -m venv venv
 
 # Activate the virtual environment
 $ venv\Scripts\activate  # For Windows
-$ source bin/activate  # For Mac & Linux
+$ source venv/bin/activate  # For Mac & Linux
 
 # If you're unable to activate the venv OR if you get the error running/execution scripts are disabled,
 # If you're using windows, Fix it by following the below instruction:
@@ -35,7 +35,7 @@ $ Set-ExecutionPolicy RemoteSigned
 # Install the requirements
 $ pip install -r requirements.txt
 
-# Create an .env file by using example.env file from the project files
+# Create a .env file by using example.env file from the project files
 
 # Run the app
 $ streamlit run app.py
